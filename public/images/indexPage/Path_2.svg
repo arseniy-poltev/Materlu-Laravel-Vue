@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="751px" height="689px" viewBox="0 0 751 689" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="95.5798605%" y1="9.93502149%" x2="11.5690195%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EC254A" offset="0%"></stop>
+            <stop stop-color="#FF0B85" offset="100%"></stop>
+        </linearGradient>
+        <path d="M484.358999,4.66442084 C334.114143,28.8365551 9.77156774,131.886503 0.320019084,248.543515 C-9.13152957,365.200527 194.322716,432.715672 141.292562,488.984156 C88.2624075,545.252641 0.464086215,651.952623 214.934617,682.752893 C429.405147,713.553164 532.177819,607.106636 652.091592,607.106636 C732.034107,607.106636 777.185226,632.322055 787.544948,682.752893 L787.544948,440.868344 L787.544948,89.3879912 C685.584219,16.7908548 584.522236,-11.4503353 484.358999,4.66442084 Z" id="path-2"></path>
+        <filter x="-2.8%" y="-3.2%" width="105.6%" height="106.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="20" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.42745098   0 0 0 0 0   0 0 0 0 0.192156863  0 0 0 0.616281703 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Desktop-HD" transform="translate(0.000000, -727.000000)">
+            <g id="monsters-copy" transform="translate(710.000000, 2368.500000) scale(-1, 1) translate(-710.000000, -2368.500000) translate(-37.000000, 627.000000)">
+                <g id="Path-2" transform="translate(706.000000, 100.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M119.036309,467.012155 C378.502469,401.191983 628.451307,387.522185 868.882823,426.002762 C1109.31434,464.483339 1164.29441,527.311606 1033.82302,614.487564 L522.420248,751.896959 L135.417077,712.634408 L31.6889195,554.440077 L119.036309,467.012155 Z" id="Path-2-Copy" fill-opacity="0.2" fill="#942A53" mask="url(#mask-3)" transform="translate(567.177612, 578.302132) rotate(-1.000000) translate(-567.177612, -578.302132) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

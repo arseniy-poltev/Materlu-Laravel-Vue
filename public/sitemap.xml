@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>http://kidmons.loc/sitemaps/es_sitemap.xml</loc>
+    
+        <lastmod>2018-11-25T14:11:21+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://kidmons.loc/sitemaps/en_sitemap.xml</loc>
+    
+        <lastmod>2018-11-25T14:11:22+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://kidmons.loc/sitemaps/fr_sitemap.xml</loc>
+    
+        <lastmod>2018-11-25T14:11:23+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://kidmons.loc/sitemaps/it_sitemap.xml</loc>
+    
+        <lastmod>2018-11-25T14:11:24+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://kidmons.loc/sitemaps/de_sitemap.xml</loc>
+    
+        <lastmod>2018-11-25T14:11:25+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://kidmons.loc/sitemaps/po_sitemap.xml</loc>
+    
+        <lastmod>2018-11-25T14:11:27+00:00</lastmod>
+    </sitemap>
+</sitemapindex>

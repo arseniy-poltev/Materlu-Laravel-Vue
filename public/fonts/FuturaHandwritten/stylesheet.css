@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FuturaHandwritten';
+    src: url('FuturaHandwritten.eot');
+    src: url('FuturaHandwritten.eot?#iefix') format('embedded-opentype'),
+        url('FuturaHandwritten.woff2') format('woff2'),
+        url('FuturaHandwritten.woff') format('woff'),
+        url('FuturaHandwritten.ttf') format('truetype'),
+        url('FuturaHandwritten.svg#FuturaHandwritten') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

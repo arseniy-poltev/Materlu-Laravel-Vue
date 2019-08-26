@@ -1,0 +1,42 @@
+{
+    "lang": "es",
+    "story": "6",
+    "gender": "girl",
+    "quality": "print",
+    "output_file" : "final_result_pr.pdf",
+    "png_dir": "png",
+    "source_web_dir": "source_web",
+    "source_print_dir": "source_print",
+    "name": [
+        {"$NAMECHICO":"Eva"}
+    ],
+	"color": {
+		"colorpiel": [
+			"F8DCBD",
+			""
+		],
+		"colorojo": [
+			"9DB177",
+			"728157"
+		],
+		"colorpelo": [
+			"A33118",
+			""
+		],
+		"colorlazo": [
+			"547bbb",
+			""
+		]
+	},
+	"show": {
+		"pelos": [
+			"pelo5"
+		],
+		"complementos": [
+			"pendientes2"
+		],
+                "gafas": [
+                        "gafas0"
+                ]
+	}
+}

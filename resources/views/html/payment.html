@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+     <link rel="stylesheet" href="css/normalize.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment</title>
+</head>
+
+<body class="payment">
+    <section class="main_wrapper">
+        <div class="header_wrapper">
+            <img src="images/storyPage/header-bg.svg" width="557" height="462" alt="" class="header_bg">
+            <img src="images/storyPage/monster1.png" alt="monster image" class="header_monster">
+            <header>
+
+                <div class="logo">
+                    <img src="images/indexPage/logo.svg" alt="logo image" class="logo_img">
+                </div>
+
+                <div class="navigation" id="navigation">
+                    <nav>
+                        <ul class="nav_list">
+
+                            <li class="nav_item"><a href="index.html#manual">How it works</a></li>
+                            <li class="nav_item"><a href="index.html#similarity">What it's like</a></li>
+                            <li class="nav_item"><a href="index.html#about">Rewies</a></li>
+                            <li class="nav_item"><a href="index.html#contact">Contacts</a></li>
+
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+                <img src="images/indexPage/Hamburger_icon.png" width="22" height="22" alt="menu icon" id="menuIcon" class="menu_icon">
+                <img src="images/indexPage/cancel-icon.png" width="22" height="22" alt="menu icon" id="cancelMenu" class="hide_menu-icon">
+            </header>
+        </div>
+ 
+<main>
+      <h2 class="content_title">New Order</h2>
+
+        <div class="content">
+
+            <form action="handler">
+              <h3 class="personal">Your Personal Info </h3>
+              <div class="form_header">
+              <input type="text" class="half first_input" placeholder="First Name">
+              <input type="text" class="half" placeholder="Last Name">
+              </div>
+              <h3 class="delivery_title">Delivery address</h3>
+              <div class="form_main">
+                  <input type="text" class="half first_input" placeholder="First Name">
+                  <input type="text" class="half" placeholder="Last Name">
+                  <input type="text" class="half first_input" placeholder="Street Address">
+                  <input type="text" class="half" placeholder="Apt/ Suite Number">
+                  <input type="text" class="full" placeholder="Company Name ">
+                  <input type="text" class="half first_input" placeholder="Zip Code">
+                  <input type="text" class="half" placeholder="City">
+
+                  <div class="drop_line">
+                     <div class="country" id="drop2">
+                        <p id="selectCountry" class="select_country">Italy</p>
+                        <img src="images/indexPage/down-arrow.svg" alt="arrow">
+                    </div>
+                    
+
+                    <div class=" drop_hidden" id="dropdown5">
+                        <div class="dropdown_item2">
+                            <div class="dropdowm_inner_item2">
+
+                                <input type="radio" id="f13" name="f6" class="l3">
+                                <label for="f13" class="c2">English </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item2">
+                            <div class="dropdowm_inner_item2">
+                                <input type="radio" id="f14" name="f6" class="l5">
+                                <label for="f14" class="c2">Spanish </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item2">
+                            <div class="dropdowm_inner_item2">
+
+                                <input type="radio" id="f15" name="f6" class="l5">
+                                <label for="f15" class="c2">French </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item2">
+                            <div class="dropdowm_inner_item2">
+                                <input type="radio" id="f16" name="f6" class="l5">
+                                <label for="f16" class="c2">German </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item2">
+                            <div class="dropdowm_inner_item2">
+                                <input type="radio" id="f17" name="f6" class="l5">
+                                <label for="f17" class="c2">Italian </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item2">
+                            <div class="dropdowm_inner_item2">
+
+                                <input type="radio" id="f18" name="f6" class="l5">
+                                <label for="f18" class="c2">Portuguese </label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                       <input type="text" class="half" placeholder="State">
+                       </div>
+
+                       <input type="text" class="full" placeholder="-32 (00) 000 00 00">
+
+                       <a href="#" class="instructions">More delivery instructions</a>
+
+              </div>
+
+              <div class="form_method">
+                  <h3 class="method_title">Payment Method</h3>
+
+                  <div class="card_method">
+                      <div class="select_card">
+                        <div class="check">
+                             <input type="radio" id="r1" name="card" value="card" class="radio_card">
+                            <label for="r1" class="card_lable">Card</label>
+                        </div>
+
+                        <div class="card_img">
+                            <img src="images/mastercard.svg" width="41" height="18" alt="card image" class="cards">
+                            <img src="images/visa.svg" width="41" height="18" alt="card image" class="cards">
+                            <img src="images/Visa_Inc.svg" width="41" height="18" alt="card image" class="cards">
+                            <img src="images/amrican-express.svg" width="41" height="18" alt="card image" class="cards">
+                        </div>
+                      </div>
+
+                      <div class="method_descr">
+                          You will be redirected to the safe payment platform of our bank
+                      </div>
+                  </div>
+
+
+
+                      <div class="card_method">
+                      <div class="select_card">
+                        <div class="check">
+                             <input type="radio" id="r2" name="card" value="card" class="radio_card">
+                            <label for="r2" class="card_lable">PayPal/Card</label>
+                        </div>
+
+                        <div class="card_img">
+                            <img src="images/PayPal.svg" width="106" height="27" alt="paypal image" class="paypal_img">
+                        </div>
+                      </div>
+
+                      <div class="method_descr">
+                    You will be redirected to the safe payment platform of Paypal
+                      </div>
+                  </div>
+
+                  <div class="checkbox_box">
+                      <div class="box1">
+                       <input type="checkbox" id="r0" name="card" value="card" class="check_card">
+                            <label for="r0" class="check_lable">Subscribe me to the newsletter </label>
+                            </div>
+                            <div class="box2">
+                             <input type="checkbox" id="r" name="card" value="card" class="check_card">
+                            <label for="r" class="check_lable">I have read and agree to KidMons <a href="#" class="privacy"> Privacy Policy</a></label>
+                            </div>
+                  </div>
+
+              </div>
+
+              <button class="next"> <span class="butt_text"> Next </span><img src="images/characterPage/right-arrow.png" alt="arrow"></button>
+            </form>
+
+
+
+
+
+       <div class="order">
+                            <h3 class="order_title">Order details</h3>
+                            <div class="order_items">
+                               
+
+                                <div class="order_item">
+                                    <p class="subtotal">Subtotal</p>
+                                    <span class="subtotal_price">$90</span>
+                                </div>
+
+                                <div class="order_item">
+                                    <p class="delivery">Delivery</p>
+                                    <span class="delivery_price">$8</span>
+                                </div>
+
+                                <div class="order_item total">
+                                    <p class="total_title">Total</p>
+                                    <span class="total_price">$98</span>
+                                </div>
+                            </div>
+
+                           
+                        </div>
+   </div>
+
+   </main>
+</section>
+
+
+
+   <footer>
+
+        <div class="links">
+            <div class="copy">&copy; 2018 KidMons</div>
+            <div>
+                <ul class="bottom_nav">
+                    <li class="bottom_nav_item1"><a href="index.html#manual">How it works </a></li>
+                    <li class="bottom_nav_item1"><a href="index.html#similarity">What it’s like</a></li>
+                    <li class="bottom_nav_item1"><a href="index.html#about">Reviews</a></li>
+                    <li class="bottom_nav_item1"><a href="index.html#contact">Contacts</a> </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="bottom_nav">
+                    <li class="bottom_nav_item2"><a href="story.html">Stories </a></li>
+                    <li class="bottom_nav_item2"><a href="index.html#contact">Contact </a></li>
+                    <li class="bottom_nav_item2"><a href="index.html#faq">Terms and conditions</a></li>
+                    <li class="bottom_nav_item2"><a href="#">Privacy</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="selectBox_wrapper">
+            <div class="selectBox">
+                <div class="select_wrapper currency">
+                    <span class="select_title">Currency</span>
+                    <div class="select_items" id="dropDown4">
+                        <span id="currency" class="fot_text">US Dollars</span>
+                        <img src="images/indexPage/down-arrow.svg" width="15" height="8" alt="arrow" class="shape">
+                    </div>
+                </div>
+                <div class="select_wrapper" id="language2">
+                    <span class="select_title" id="footerLanguage">Language</span>
+                    <div class="select_items">
+                        <img src="images/indexPage/united-states.svg" alt="united states" class="united_states" id="countryImg">
+                        <span id="selectLanguage" class="fot_text">English </span>
+                        <img src="images/indexPage/down-arrow.svg" width="15" height="8" alt="arrow" class="shape">
+                    </div>
+
+
+                    <div class="drop_hidden3" id="dropdown3">
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/united-states.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f1" name="f6" class="l2 foot">
+                                <label for="f1" class="c1">English </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/spain.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f2" name="f6" class="l2 foot">
+                                <label for="f2" class="c1">Spanish </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/france.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f3" name="f6" class="l2 foot">
+                                <label for="f3" class="c1">French </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/germany.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f4" name="f6" class="l2 foot">
+                                <label for="f4" class="c1">German </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/italy.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f5" name="f6" class="l2 foot">
+                                <label for="f5" class="c1">Italian </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/portugal.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f6" name="f6" class="l2 foot">
+                                <label for="f6" class="c1">Portuguese </label>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                </div>
+                  <div class="drop_hidden4" id="dropdown4">
+                        <div class="dropdown_item1">
+                               <input type="radio" id="f19" name="f6" class="l3">
+                                <label for="f19" class="c1">US Dollars </label>
+                        </div>
+
+
+                         <div class="dropdown_item1">
+                                <input type="radio" id="f20" name="f6" class="l3">
+                                <label for="f20" class="c1">EU Euro </label>
+                            
+                            
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        
+        
+    </footer>
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>

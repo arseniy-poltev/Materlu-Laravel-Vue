@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Page</title>
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+     <link rel="stylesheet" href="css/normalize.css">
+      
+</head>
+
+<body class="characterPage">
+
+    <section class="main_wrapper">
+         <div class="header_wrapper">
+<img src="images/storyPage/header-bg.svg" width="557" height="462" alt="" class="header_bg">
+         <img src="images/storyPage/monster1.png" alt="monster image" class="header_monster">
+          <header>
+
+            <div class="logo">
+                <img src="images/indexPage/logo.svg" alt="logo image" class="logo_img">
+            </div>
+
+            <div class="navigation" id="navigation">
+                <nav>
+                    <ul class="nav_list">
+
+                        <li class="nav_item"><a href="index.html#manual">How it works</a></li>
+                        <li class="nav_item"><a href="index.html#similarity">What it's like</a></li>
+                        <li class="nav_item"><a href="index.html#about">Rewies</a></li>
+                        <li class="nav_item"><a href="index.html#contact">Contacts</a></li>
+
+                    </ul>
+                </nav>
+
+
+              
+            </div>
+            <img src="images/indexPage/Hamburger_icon.png" width="22" height="22" alt="menu icon" id="menuIcon" class="menu_icon">
+            <img src="images/indexPage/cancel-icon.png" width="22" height="22" alt="menu icon" id="cancelMenu" class="hide_menu-icon">
+        </header>
+    </div>
+
+
+        <main>
+
+            <div class="back_link_wrapper">
+                <a href="story.html" class="back_link">
+                    <img src="images/characterPage/back-arrow.png" alt="arrow image">
+                    <span class="back_link_text">Stories</span>
+                </a>
+            </div>
+
+
+            <h3 class="character_title">Character set up</h3>
+
+            <div class="progressbar">
+                <div class="progressbar_images">
+                    <div class="progress1" ></div>
+                    <div class="progress2" id="progress2"></div>
+                    <div class="progress3" id="progress3"></div>
+                    <div class="progress4" id="progress4"></div>
+                    <div class="progress5" id="progress5"></div>
+                
+                </div>
+                <div class="progressbar_descr">
+                    <span class="progressbar_descr-item">Name</span>
+                    <span class="progressbar_descr-item">Appearance</span>
+                    <span class="progressbar_descr-item">Dedication</span>
+                    <span class="progressbar_descr-item">Review</span>
+                </div>
+            </div>
+
+
+            <div class="apearence" id="apBox">
+
+                <form action="handler" class="apearence_form">
+                    <h4 class="form_title">What's your character's name?</h4>
+                    <input type="text" placeholder="Character's Name" class="char_name" id="charName">
+                    <p class="gender">Gender</p>
+
+                    <div class="gender_choise">
+                        <input type="radio" id="r1" name="gender_choice" value="girl" class="gender_check">
+                        <label for="r1" class="char_Settings_lable">Girl</label>
+                        <img src="images/indexPage/settings-girl.svg" alt="girl" class="char_Settings_girl">
+                        <input type="radio" id="r2" name="gender_choice" value="boy" class="gender_check">
+                        <label for="r2" class="char_Settings_lable">Boy</label>
+                        <img src="images/indexPage/martin.svg" alt="boy" class="char_Settings_boy">
+                    </div>
+
+                   
+                    <div class="char_settings">
+                        <div class="char_language">
+                            <div class="select_wrapper2">
+                                <span class="select_title" id="formLanguage">Language of the story</span>
+                                <div class="select_items2" id="language1">
+                                    <img src="images/indexPage/united-states.svg" alt="united states" class="united_states" id="charCountry">
+                                    <span class="char_settings-language" id="charBox">English </span>
+                                    <img src="images/indexPage/down-arrow.svg" width="15" height="8" alt="arrow">
+                                </div>
+
+
+                                <div class="drop_hidden3" id="dropdown2">
+                                    <div class="dropdown_item1">
+                                        <div class="dropdowm_inner_item1">
+                                            <img src="images/indexPage/united-states.svg" class="country_icon" alt="country icon">
+                                            <input type="radio" id="f7" name="f6" class="l1">
+                                            <label for="f7" class="c2">English </label></div>
+                                    </div>
+                                    <div class="dropdown_item1">
+                                        <div class="dropdowm_inner_item1">
+                                            <img src="images/indexPage/spain.svg" class="country_icon" alt="country icon">
+                                            <input type="radio" id="f8" name="f6" class="l1">
+                                            <label for="f8" class="c2">Spanish </label></div>
+                                    </div>
+                                    <div class="dropdown_item1">
+                                        <div class="dropdowm_inner_item1">
+                                            <img src="images/indexPage/france.svg" class="country_icon" alt="country icon">
+                                            <input type="radio" id="f9" name="f6" class="l1">
+                                            <label for="f9" class="c2">French </label></div>
+                                    </div>
+                                    <div class="dropdown_item1">
+                                        <div class="dropdowm_inner_item1">
+                                            <img src="images/indexPage/germany.svg" class="country_icon" alt="country icon">
+                                            <input type="radio" id="f10" name="f6" class="l1">
+                                            <label for="f10" class="c2">German </label></div>
+                                    </div>
+                                    <div class="dropdown_item1">
+                                        <div class="dropdowm_inner_item1">
+                                            <img src="images/indexPage/italy.svg" class="country_icon" alt="country icon">
+                                            <input type="radio" id="f11" name="f6" class="l1">
+                                            <label for="f11" class="c2">Italian </label></div>
+                                    </div>
+                                    <div class="dropdown_item1">
+                                        <div class="dropdowm_inner_item1">
+                                            <img src="images/indexPage/portugal.svg" class="country_icon" alt="country icon">
+                                            <input type="radio" id="f12" name="f6" class="l1">
+                                            <label for="f12" class="c2">Portuguese </label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="font_style">
+                            <p class="font_style-title">Font Style</p>
+                            <input type="radio" id="r3" name="font-style" value="girl" class="gender_check">
+                            <label for="r3" class="style_Settings_lable">Standard</label>
+                            <input type="radio" id="r4" name="font-style" value="boy" class="gender_check">
+                            <label for="r4" class="storySettings_lable">UPPERCASE </label>
+
+                        </div>
+                    </div>
+
+
+                    <button class="apearence_butt" id="apearence">Apearence <img src="images/characterPage/right-arrow.png" alt="arrow" class="button_arrow"> </button>
+                </form>
+
+
+
+                <div class="advice_box">
+                    <div class="advice">
+                        <p class="advice_text">We suggest you write the name or nickname that you usually call your child.</p><br>
+                        <p class="advice_text">Remember that the name is repeated throughout the story and using long names can be a bit repetitive
+                            and unnatural.</p><br>
+                        <p class="advice_text">Check your spelling, bearing in mind it's a present that will last a lifetime.</p><br>
+                    </div>
+                </div>
+            </div>
+
+
+     </main>
+
+         </section>
+
+            
+
+  <footer>
+
+        <div class="links">
+            <div class="copy">&copy; 2018 KidMons</div>
+            <div>
+                <ul class="bottom_nav">
+                    <li class="bottom_nav_item1"><a href="index.html#manual">How it works </a></li>
+                    <li class="bottom_nav_item1"><a href="index.html#similarity">What it’s like</a></li>
+                    <li class="bottom_nav_item1"><a href="index.html#about">Reviews</a></li>
+                    <li class="bottom_nav_item1"><a href="index.html#contact">Contacts</a> </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="bottom_nav">
+                    <li class="bottom_nav_item2"><a href="story.html">Stories </a></li>
+                    <li class="bottom_nav_item2"><a href="index.html#contact">Contact </a></li>
+                    <li class="bottom_nav_item2"><a href="index.html#faq">Terms and conditions</a></li>
+                    <li class="bottom_nav_item2"><a href="#">Privacy</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="selectBox_wrapper">
+            <div class="selectBox">
+                <div class="select_wrapper currency">
+                    <span class="select_title">Currency</span>
+                    <div class="select_items" id="dropDown4">
+                        <span id="currency" class="fot_text">US Dollars</span>
+                        <img src="images/indexPage/down-arrow.svg" width="15" height="8" alt="arrow" class="shape">
+                    </div>
+                </div>
+                <div class="select_wrapper" id="language2">
+                    <span class="select_title" id="footerLanguage">Language</span>
+                    <div class="select_items">
+                        <img src="images/indexPage/united-states.svg" alt="united states" class="united_states" id="countryImg">
+                        <span id="selectLanguage" class="fot_text">English </span>
+                        <img src="images/indexPage/down-arrow.svg" width="15" height="8" alt="arrow" class="shape">
+                    </div>
+
+
+                    <div class="drop_hidden3" id="dropdown3">
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/united-states.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f1" name="f6" class="l2 foot">
+                                <label for="f1" class="c1">English </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/spain.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f2" name="f6" class="l2 foot">
+                                <label for="f2" class="c1">Spanish </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/france.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f3" name="f6" class="l2 foot">
+                                <label for="f3" class="c1">French </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/germany.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f4" name="f6" class="l2 foot">
+                                <label for="f4" class="c1">German </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/italy.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f5" name="f6" class="l2 foot">
+                                <label for="f5" class="c1">Italian </label>
+                            </div>
+                        </div>
+
+                        <div class="dropdown_item1">
+                            <div class="dropdowm_inner_item1">
+                                <img src="images/indexPage/portugal.svg" class="country_icon" alt="country icon">
+                                <input type="radio" id="f6" name="f6" class="l2 foot">
+                                <label for="f6" class="c1">Portuguese </label>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                </div>
+                  <div class="drop_hidden4" id="dropdown4">
+                        <div class="dropdown_item1">
+                               <input type="radio" id="f19" name="f6" class="l3">
+                                <label for="f19" class="c1">US Dollars </label>
+                        </div>
+
+
+                         <div class="dropdown_item1">
+                                <input type="radio" id="f20" name="f6" class="l3">
+                                <label for="f20" class="c1">EU Euro </label>
+                            
+                            
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        
+        
+    </footer>
+
+   
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>

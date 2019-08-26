@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+    
+    <loc>http://kidmons.loc/de</loc>
+        <lastmod>2018-11-25T14:11:24+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+    
+    <loc>http://kidmons.loc/de/customize/4/name</loc>
+        <lastmod>2018-11-25T14:11:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+    
+    <loc>http://kidmons.loc/de/customize/5/name</loc>
+        <lastmod>2018-11-25T14:11:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+    
+    <loc>http://kidmons.loc/de/privacy</loc>
+        <lastmod>2018-11-25T14:11:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+    
+    <loc>http://kidmons.loc/de/stories</loc>
+        <lastmod>2018-11-25T14:11:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+    
+    <loc>http://kidmons.loc/de/terms</loc>
+        <lastmod>2018-11-25T14:11:25+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

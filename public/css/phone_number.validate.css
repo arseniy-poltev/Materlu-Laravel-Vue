@@ -1,0 +1,13 @@
+#valid-msg {
+    color: #00c900;
+    float: right;
+}
+
+#error-msg {
+    color: red;
+    float: right;
+}
+
+.hide {
+    display: none;
+}

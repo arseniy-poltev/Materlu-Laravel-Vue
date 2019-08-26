@@ -1,0 +1,259 @@
+{
+	"modelo": {
+		"chico": {
+			"skin": [
+				{
+					"tipo": "Color",
+					"target": "colorpiel",
+					"extra": [
+						[
+							"F8DCBD",
+							""
+						],
+						[
+							"E3B491",
+							""
+						],
+						[
+							"D2A188",
+							""
+						],
+						[
+							"A27159",
+							""
+						]
+					]
+				}
+			],
+			"freckles": [
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "pecas",
+					"extra": "pecas"
+				}
+			],
+			"eyes": [
+				{
+					"tipo": "Color",
+					"target": "colorojos",
+					"extra": [
+						[
+							"594E49",
+							"39322E"
+						],
+						[
+							"815B42",
+							"5F4331"
+						],
+						[
+							"9DB177",
+							"728157"
+						],
+						[
+							"82B3AE",
+							"567572"
+						],
+						[
+							"9BBCD7",
+							"718A9F"
+						],
+						[
+							"CB992E",
+							"88661F"
+						],
+						[
+							"A6775C",
+							"85604C"
+						],
+						[
+							"979797",
+							"706F6F"
+						]
+					]
+				},{
+					"tipo": "Mostrar/Ocultar",
+					"target": "ojos",
+					"extra": "ojos"
+				}
+			],
+			"hair": [
+				{
+					"tipo": "Color",
+					"target": "colorpelo",
+					"extra": [
+						[
+							"3B3B3B",
+							""
+						],
+						[
+							"6B4324",
+							""
+						],
+						[
+							"883E1A",
+							""
+						],
+						[
+							"C68C2E",
+							""
+						],
+						[
+							"FEEA9F",
+							""
+						],
+						[
+							"E86E26",
+							""
+						],
+						[
+							"A33118",
+							""
+						]
+					]
+				},{
+					"tipo": "Mostrar/Ocultar",
+					"target": "peinados",
+					"extra": "pelo"
+				}
+			],
+			"glasses": [
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "gafas",
+					"extra": "gafas"
+				}
+			]
+		},
+		"chica": {
+			"skin": [
+				{
+					"tipo": "Color",
+					"target": "colorpiel",
+					"extra": [
+						[
+							"F8DCBD",
+							""
+						],
+						[
+							"E3B491",
+							""
+						],
+						[
+							"D2A188",
+							""
+						],
+						[
+							"A27159",
+							""
+						]
+					]
+				}
+			],
+			"freckles": [
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "pecas",
+					"extra": "pecas"
+				}
+			],
+			"eyes": [
+				{
+					"tipo": "Color",
+					"target": "colorojos",
+					"extra": [
+						[
+							"594E49",
+							"39322E"
+						],
+						[
+							"815B42",
+							"5F4331"
+						],
+						[
+							"9DB177",
+							"728157"
+						],
+						[
+							"82B3AE",
+							"567572"
+						],
+						[
+							"9BBCD7",
+							"718A9F"
+						],
+						[
+							"CB992E",
+							"88661F"
+						],
+						[
+							"A6775C",
+							"85604C"
+						],
+						[
+							"979797",
+							"706F6F"
+						]
+					]
+				},{
+					"tipo": "Mostrar/Ocultar",
+					"target": "ojos",
+					"extra": "ojos"
+				}
+			],
+			"hair": [
+				{
+					"tipo": "Color",
+					"target": "colorpelo",
+					"extra": [
+						[
+							"3B3B3B",
+							""
+						],
+						[
+							"6B4324",
+							""
+						],
+						[
+							"883E1A",
+							""
+						],
+						[
+							"C68C2E",
+							""
+						],
+						[
+							"FEEA9F",
+							""
+						],
+						[
+							"E86E26",
+							""
+						],
+						[
+							"A33118",
+							""
+						]
+					]
+				},{
+					"tipo": "Mostrar/Ocultar",
+					"target": "peinados",
+					"extra": "pelo"
+				}
+			],
+			"accesories": [
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "accesorios",
+					"extra": "accesorio"
+				}
+			],
+			"glasses": [
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "gafas",
+					"extra": "gafas"
+				}
+			]
+		}
+	}
+}

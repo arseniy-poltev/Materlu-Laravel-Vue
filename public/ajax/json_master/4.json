@@ -1,0 +1,235 @@
+{
+	"modelo": {
+		"chico": {
+			"skin": [
+				{
+					"tipo": "Color",
+					"target": "colorpiel",
+					"extra": [
+						[
+							"F8DCBD",
+							""
+						],
+						[
+							"E3B491",
+							""
+						],
+						[
+							"D2A188",
+							""
+						],
+						[
+							"A27159",
+							""
+						]
+					]
+				}
+			],
+			"eyes": [
+				{
+					"tipo": "Color",
+					"target": "colorojo",
+					"extra": [
+						[
+							"594E49",
+							""
+						],
+						[
+							"815B42",
+							""
+						],
+						[
+							"9DB177",
+							""
+						],
+						[
+							"82B3AE",
+							""
+						],
+						[
+							"9BBCD7",
+							""
+						],
+						[
+							"CB992E",
+							""
+						],
+						[
+							"A6775C",
+							""
+						],
+						[
+							"979797",
+							""
+						]
+					]
+				},
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "ojos",
+					"extra": "ojo"
+				}
+			],
+			"hair": [
+				{
+					"tipo": "Color",
+					"target": "colorpelo",
+					"extra": [
+						[
+							"3B3B3B",
+							""
+						],
+						[
+							"6B4324",
+							""
+						],
+						[
+							"883E1A",
+							""
+						],
+						[
+							"C68C2E",
+							""
+						],
+						[
+							"FEEA9F",
+							""
+						],
+						[
+							"E86E26",
+							""
+						],
+						[
+							"A33118",
+							""
+						]
+					]
+				},
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "pelos",
+					"extra": "pelo"
+				}
+			]
+		},
+		"chica": {
+			"skin": [
+				{
+					"tipo": "Color",
+					"target": "colorpiel",
+					"extra": [
+						[
+							"F8DCBD",
+							""
+						],
+						[
+							"E3B491",
+							""
+						],
+						[
+							"D2A188",
+							""
+						],
+						[
+							"A27159",
+							""
+						]
+					]
+				}
+			],
+			"eyes": [
+				{
+					"tipo": "Color",
+					"target": "colorojo",
+					"extra": [
+						[
+							"594E49",
+							""
+						],
+						[
+							"815B42",
+							""
+						],
+						[
+							"9DB177",
+							""
+						],
+						[
+							"82B3AE",
+							""
+						],
+						[
+							"9BBCD7",
+							""
+						],
+						[
+							"CB992E",
+							""
+						],
+						[
+							"A6775C",
+							""
+						],
+						[
+							"979797",
+							""
+						]
+					]
+				},
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "ojos",
+					"extra": "ojo"
+				}
+			],
+			"hair": [
+				{
+					"tipo": "Color",
+					"target": "colorpelo",
+					"extra": [
+						[
+							"3B3B3B",
+							""
+						],
+						[
+							"6B4324",
+							""
+						],
+						[
+							"883E1A",
+							""
+						],
+						[
+							"C68C2E",
+							""
+						],
+						[
+							"FEEA9F",
+							""
+						],
+						[
+							"E86E26",
+							""
+						],
+						[
+							"A33118",
+							""
+						]
+					]
+				},
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "pelos",
+					"extra": "pelo"
+				}
+			],
+			"accesories": [
+				{
+					"tipo": "Mostrar/Ocultar",
+					"target": "accesorios",
+					"extra": "accesorio"
+				}
+			]
+		}
+	}
+}
